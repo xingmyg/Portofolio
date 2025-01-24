@@ -1,0 +1,356 @@
+body,
+html {
+    margin: 0;
+    font-size: 20px;
+    padding-bottom: 30px;
+    background-color: rgb(214, 214, 180);
+    font-family: 'Lato', sans-serif;
+}
+
+/*Styling for the header*/
+a {
+    color: #FFFCF5;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #374375;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 100px;
+}
+
+.nav-color {
+    color: #DFAEA0;
+}
+
+/*Styling for the header*/
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 40px;
+}
+
+#info-hobby {
+    display: flex;
+    flex-direction: column;
+}
+
+#portret {
+    position: absolute;
+    top: 190px;
+    left: 490px;
+}
+
+#pointer {
+    position: absolute;
+    top: 910px;
+    right: 340px;
+}
+
+#information {
+    background-color: #DFAEA0;
+    color: #FFFCF5;
+    flex-direction: column;
+    display: flex;
+    border-radius: 40px;
+    width: 630px;
+    height: 400px;
+    padding: 20px;
+    gap: 20px;
+}
+
+#name {
+    padding-top: 30px;
+}
+
+#hobbies {
+    padding-top: 60px;
+}
+
+#hobbies-intrest {
+    background-color: #FFFCF5;
+    color: #374375;
+    flex-direction: column;
+    border: solid;
+    border-color: #BABCE2;
+    display: flex;
+    border-radius: 40px;
+    border-width: 1em;
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+}
+
+#dog {
+    position: absolute;
+    left: 400px;
+    top: 800px;
+}
+
+#scuba {
+    position: absolute;
+    left: 280px;
+    top: 720px;
+}
+
+#wasd {
+    position: absolute;
+    left: 550px;
+    top: 720px;
+}
+
+/*styling for the education*/
+
+#academic {
+    background-color: #89515A;
+    color: #FFFCF5;
+    flex-direction: column;
+    display: flex;
+    border: solid;
+    border-color: #DFAEA0;
+    border-radius: 40px;
+    border-width: 1em;
+    width: 700px;
+    height: 800px;
+    padding: 20px;
+    gap: 30px;
+}
+
+/*styling for the education*/
+
+#diploma {
+    position: absolute;
+    right: 472px;
+    top: 338px;
+}
+
+#abilities {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+#personal-abilities {
+    background-color: #BABCE2;
+    color: #374375;
+    flex-direction: column;
+    border: solid;
+    border-color: #FFFCF5;
+    display: flex;
+    border-radius: 40px;
+    border-width: 1em;
+    display: flex;
+    border-radius: 40px;
+    width: 630px;
+    height: 400px;
+    padding: 20px;
+}
+
+#personal-photo {
+    position: absolute;
+    top: 370px;
+    left: 500px;
+}
+
+#tech-abilities {
+    background-color: #374375;
+    color: #FFFCF5;
+    flex-direction: column;
+    display: flex;
+    border-radius: 40px;
+    width: 630px;
+    height: 430px;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+#tech-photo {
+    position: absolute;
+    top: 370px;
+    right: 200px;
+}
+
+#intrest {
+    padding-top: 20px;
+    justify-content: center;
+}
+
+#html-css {
+    position: absolute;
+    right: 800px;
+    top: 750px;
+}
+
+#virtual {
+    position: absolute;
+    right: 600px;
+    top: 750px;
+}
+
+#java {
+    position: absolute;
+    right: 830px;
+    top: 860px;
+}
+
+#ecplise {
+    position: absolute;
+    right: 600px;
+    top: 860px;
+}
+
+#software {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+#software-intrest {
+    background-color: #89515A;
+    color: #FFFCF5;
+    flex-direction: column;
+    border: solid;
+    border-color: #DFAEA0;
+    display: flex;
+    border-radius: 40px;
+    border-width: 1em;
+    display: flex;
+    width: 84%;
+    height: 300px;
+    padding: 20px;
+}
+
+#made-project {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    justify-content: center;
+    gap: 40px;
+}
+
+#project {
+    background-color: #89515A;
+    color: #FFFCF5;
+    flex-direction: column;
+    display: flex;
+    border: solid;
+    border-color: #DFAEA0;
+    border-radius: 40px;
+    border-width: 1em;
+    width: 500px;
+    height: 700px;
+    padding: 20px;
+}
+
+#project-picture {
+    position: absolute;
+    top: 500px;
+    left: 230px;
+}
+
+.examples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#projects {
+    padding-top: 60px;
+}
+
+img {
+    border-radius: 30px;
+}
+
+#pink-goose {
+    flex-direction: column;
+    display: flex;
+    width: 630px;
+    height: 430px;
+}
+
+#mastermind {
+    flex-direction: column;
+    display: flex;
+    width: 630px;
+    height: 430px;
+}
+
+/* Styling of the contact form*/
+
+#message {
+    height: 300px;
+}
+#contact {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    background-color: #9c6363;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 800px;
+    height: 600px;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    box-sizing: border-box;
+    border: none;
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #fff;
+    color: #9c6363;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styling of the contact form*/
